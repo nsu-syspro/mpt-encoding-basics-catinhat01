@@ -2,5 +2,5 @@
 
 # Вывести дату в формате:
 #   13 октября 2023 года, Пятница
-export LANG=ru_RU.UTF-8
+export LC_ALL=ru_RU.UTF-8
 date '+%d %B %G года, %A ' -d "$@"
